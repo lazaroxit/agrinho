@@ -1,0 +1,74 @@
+/* Reset básico de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fontes principais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fd0000;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000000; /* Cor verde para representar agricultura */
+    color: rgb(248, 126, 11);
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 3rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Seções */
+section {
+    padding: 30px;
+    margin: 20px 0;
+    background-color: rgb(22, 6, 6);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos das seções */
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Lista de produtos */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
